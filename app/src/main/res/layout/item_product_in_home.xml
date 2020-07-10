@@ -7,11 +7,11 @@
     android:layout_height="wrap_content">
 
     <androidx.cardview.widget.CardView
-        android:layout_width="195dp"
-        android:layout_height="210dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_margin="5dp"
-        android:elevation="3dp">
+        android:layout_margin="1dp"
+        android:elevation="1dp">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
@@ -26,7 +26,7 @@
                 card_view:layout_constraintEnd_toEndOf="parent"
                 card_view:layout_constraintStart_toStartOf="parent"
                 card_view:layout_constraintTop_toTopOf="parent"
-                tools:srcCompat="@drawable/kaspi_logo" />
+                app:srcCompat="@drawable/kaspi_logo" />
 
             <TextView
                 android:id="@+id/tv_product_name_in_home"
@@ -35,9 +35,9 @@
                 android:gravity="center"
                 android:lines="1"
                 android:maxLength="20"
+                android:layout_marginStart="10dp"
                 android:textColor="@color/textGray"
                 android:textSize="17sp"
-                card_view:layout_constraintEnd_toEndOf="parent"
                 card_view:layout_constraintStart_toStartOf="parent"
                 card_view:layout_constraintTop_toBottomOf="@id/iv_product_image_in_home"
                 tools:text="Samsung Galaxy A3..." />
@@ -53,7 +53,7 @@
                 card_view:layout_constraintBottom_toBottomOf="parent"
                 card_view:layout_constraintStart_toStartOf="@+id/tv_product_name_in_home"
                 card_view:layout_constraintTop_toBottomOf="@id/tv_product_name_in_home"
-                tools:text="91690" />
+                android:text="91690" />
 
             <TextView
                 android:id="@+id/tv_tenge_symbol"
@@ -68,7 +68,7 @@
                 card_view:layout_constraintBottom_toBottomOf="parent"
                 card_view:layout_constraintStart_toEndOf="@+id/tv_product_price_in_home"
                 card_view:layout_constraintTop_toBottomOf="@id/tv_product_name_in_home"
-                tools:text="T" />
+                android:text="T" />
 
             <TextView
                 android:id="@+id/textView2"
@@ -80,7 +80,7 @@
                 android:textColor="@color/white"
                 card_view:layout_constraintStart_toStartOf="parent"
                 card_view:layout_constraintTop_toTopOf="parent"
-                tools:text="5% Б" />
+                android:text="5% Б" />
 
             <ImageView
                 android:layout_width="wrap_content"

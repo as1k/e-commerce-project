@@ -46,8 +46,8 @@
         android:id="@+id/container"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="55dp"
-        android:layout_marginBottom="55dp">
+        android:layout_marginTop="57dp"
+        android:layout_marginBottom="57dp">
 
         <com.example.e_commerce_project.utils.StoreViewPager
             android:id="@+id/pager"
