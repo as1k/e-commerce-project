@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">E-commerce-project</string>
+    <string name="home">Главная</string>
+    <string name="categories">Категории</string>
+    <string name="search">Поиск</string>
+    <string name="shop_cart">Корзина</string>
+    <string name="saved">Избранное</string>
+    <string name="profile">Профиль</string>
+    <string name="ad_text">Дарим 300 Бонусов за первую покупку\nна сумму от 10000 тенге в Магазине на Kaspi.kz</string>
+    <string name="recommendation">Вас могут заинтересовать</string>
+    <string name="searchOfProduct">Поиск товара</string>
+    <string name="phonesAndGadgets">Телефоны, гаджеты</string>
+    <string name="fountProductsByCategory">Найденные товары по категории</string>
 </resources>
